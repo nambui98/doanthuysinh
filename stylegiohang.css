@@ -1,0 +1,148 @@
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 120px;
+    padding: 0 40px;
+}
+nav .giohang-left{
+    width: 58%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    border-right: 1px solid #ddd;
+}
+nav .giohang-left .top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+nav .giohang-left hr:nth-child(2){
+    border: 2px solid #f0f0f0;
+}
+nav .giohang-left h5 ,nav .giohang-left span{
+    font-weight: 700;
+    font-size: 17px;
+}
+nav .giohang-left .top h5:nth-child(1){
+    width: 52%;
+}
+nav .giohang-left .top h5:nth-child(2){
+    width: calc(48%/3);
+}
+nav .giohang-left .top h5:nth-child(3){
+    width: calc(48%/3);
+}
+nav .giohang-left .top h5:nth-child(4){
+    width: calc(48%/3);
+}
+nav .giohang-left .bottom{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    align-items: center;
+}
+.title{
+    font-size: 15px;
+}
+nav .giohang-left .bottom div:nth-child(1){
+    width: 52%;
+    display: flex;
+    
+    align-items: center;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+nav .giohang-left .bottom div:nth-child(1) img{
+    margin: 0 20px;
+}
+nav .giohang-left .bottom .input,nav .giohang-left .bottom span{
+    width: calc(48%/3);
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+nav .bottom img{
+    width: 70px;
+    height: 70px;
+}
+.quantity-input{
+    height: 30px;
+    width: 40px;
+}
+nav .bottom .btn-danger{
+    background-color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+nav .bottom .btn-danger:hover{
+    color: #7aba1e;
+}
+nav .giohang-right{
+    width: 42%;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+nav .giohang-right div:nth-child(1),nav .giohang-right div:nth-child(3),nav .giohang-right div:nth-child(4){
+    display: flex;
+    justify-content: space-between;
+}
+nav .giohang-right > div > div p{
+    margin: 0;
+} 
+nav .giohang-right .giaohang{
+    display: flex;
+    justify-content: space-between;
+}
+nav .giohang-right .uudai{
+    margin: 20px 0 0px 0 ;
+}
+nav .giohang-right .tong{
+    display: flex;
+    justify-content: space-between;
+}
+nav .button{
+    background-color: #fe908b;
+    height: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+nav .button:hover{
+    background-color: #db3e36;
+}
+nav .giohang-right hr:nth-child(2){
+    border: 2px solid #f0f0f0;
+    margin-top: 24px;
+}
+nav .giohang-right input{
+    width: 100%;
+    border: 1px solid #ddd;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+}
+nav .giohang-right input:focus{
+    box-shadow: 0px 0px 5px 0px rgba(153,153,153,1);
+}
+nav .giohang-right > div:last-child{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+nav .giohang-right > div:last-child:hover{
+    background-color: #a1e73e;
+}
+nav .giohang-right h5,nav .giohang-right .gia{
+    font-weight: 700;
+    font-size: 17px;
+}
+nav .giohang-right .uudai i{
+    padding: 0 10px;
+    color: #999;
+}

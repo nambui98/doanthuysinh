@@ -1,0 +1,5 @@
+.alertify-notifier .ajs-message {
+    color: #fff;
+    background: rgba(217, 92, 92, 0,95);
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0,5);
+}

@@ -1,0 +1,406 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+header{
+    height: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f5f5f5;
+    box-shadow: 0px 0px 5px -2px rgba(0,0,0,0.75);
+    position: sticky;
+    top: 0;
+}
+header .left-header{
+    width: 22%;
+    box-sizing: border-box;
+    border-right: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+header .left-header img{
+    width: 170px;
+}
+header .right-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 78%;
+    padding: 0 45px;
+    box-sizing: border-box;
+    box-shadow:-2px 0px 20px -2px #ddd;
+}
+header .right-header input[type='text']{
+    padding-left: 10px;
+}
+header .right-header div:nth-child(1) input{
+    height: 40px;
+    width: 350px;
+    border:none;
+    border:1px solid #ddd;
+    border-radius: 4px;
+}
+header .right-header div:nth-child(1) button{
+    height: 38px;
+    width: 60px;
+    background-color: #4272d7;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+header .right-header div:nth-child(1) button i{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+header .right-header div:nth-child(2){
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .right-header div:nth-child(2) i{
+    font-size: 27px;
+    padding: 0 15px;
+}
+header .right-header div:nth-child(2) i:nth-child(3){
+    margin-right: 20px;
+}
+header .right-header div:nth-child(2) a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+header .right-header div:nth-child(2) a span{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+header .right-header div:nth-child(2) a .btn-acc{
+    width: 8px;
+    height: 8px;
+    border: 1px solid black;
+    border-bottom: none;
+    border-right: none;
+    transform: rotate(-135deg);
+    margin-left: 5px;
+}
+header .right-header .img-acc{
+    width: 50px;
+    height: 50px;
+    background-image: url('img/banner/56596583_1094275654110706_1486284711364919296_o (1).jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    
+    height: 100%;
+}
+section .UserCases{
+    width: 22%;
+    background-color: #fff;
+    /* padding-top: 50px;
+    padding-left: 40px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    box-sizing: border-box;
+    position: fixed;
+    border-top: 1px solid #ddd;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+section .UserCases p{
+    font-size: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+section .detail div:nth-child(1) p{
+    font-size: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+    
+    line-height: 40px;
+}
+section div:nth-child(1) p:nth-child(1){
+    color: #7aba1e;;
+}
+section div:nth-child(1) p:hover{
+    color: #7aba1e;
+}
+
+section .detail{
+    width: 78%;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e5e5;
+    margin-left: 22%;
+}
+section .detail .list-total{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+section .detail .list-total .total{
+    width: calc(100%/6);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+section .detail .list-total .total div .fas,section .detail .list-total .total div .far{
+    font-size: 50px;
+    color: white;
+}
+.total-detail{
+    font-size: 35px;
+    margin: 0;
+    color: white;
+}
+section .detail .list-total .total div{
+    width: 88%;
+    border-radius: 10px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+section .detail .list-total .total:nth-child(1) div{
+    background-image: linear-gradient(to right bottom, #ff0000, #f84900, #f16900, #e98100, #e19506);
+}
+section .detail .list-total .total:nth-child(2) div{
+    background-image: linear-gradient(to right bottom, #1cf697, #09f17e, #0bec63, #1ce742, #2ce106);
+}
+section .detail .list-total .total:nth-child(3) div{
+    background-image: linear-gradient(to right bottom, #deff00, #c4f800, #a9f100, #8de900, #6fe106);
+}
+section .detail .list-total .total:nth-child(4) div{
+    background-image: linear-gradient(to right bottom, rgba(82,229,231,1) 14%, rgba(115,110,254,1) 85%);
+}
+section .detail .list-total .total:nth-child(5) div{
+    background-color: #f21515;
+}
+section .detail .list-total .total:nth-child(6) div{
+    background-color: #0dad4c;
+}
+.list-table{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.list-table > .add-table{
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.list-table > .add-table:nth-child(1){
+    display: flex;
+}
+.list-table > .add-table> .btn-add{
+    width: 100%;
+}
+.list-table .add-table > div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin: 10px 0px 0px 0px;
+    font-size: 30px;
+    width: 98%;
+    text-align: center;
+}
+
+.list-table .add-table div .btn-add button{
+    background-color: #4272d7;
+    border: none;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.list-table div .btn-add button:hover{
+    color: white;
+    background-color: #1b4aaf;
+}
+table{
+    margin-top: 10px;
+    width: 98%;
+    flex-direction: column;
+    border: 1px solid black;
+    border-collapse: collapse;
+    border: none;
+}
+section > .detail > .list-table > div{
+    width: 100%;
+}
+section > .detail > .list-table > div:nth-child(1) > table{
+    display: inline-table;
+}
+table thead{
+    color: white;
+}
+
+table thead th{
+    background-color: #333;   
+    border: 0;
+    height: 60px;
+    text-align: center;
+}
+table thead th:nth-child(1){
+    border-top-left-radius: 10px;
+    
+}
+table thead th:last-child{
+    border-top-right-radius: 10px;
+}
+table tbody{
+    text-align: center;
+    background-color: white;
+}
+table tbody tr{
+    display: table-row;
+    border-top: 1px solid #ddd;
+}
+table tbody tr:hover{
+    background: #ddd;
+    cursor: pointer;
+}
+table tbody tr td{
+    height: 60px;
+}
+table tbody tr td img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+table tbody tr td i{
+    font-size: 20px;
+    cursor: pointer;
+}
+table tbody tr td i:hover{
+    color: #7aba1e;
+}
+.modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    display: none;
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.modal > div{
+    width: 30%;
+    background-color: white;
+    border-radius: 4px;
+    position: relative;
+}
+.modal > div > p{
+    width: 100%;
+    height: 50px;
+    background-color: #f5f5f5;
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.modal form{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    font-size: 20px;
+    color: #333;
+}
+.modal > form > label{
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.modal form input{
+    height: 30px;
+    padding-left: 10px;
+    color: #333;
+    font-size: 15px;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+.modal form > .radiogt{
+    display: flex;
+    align-items: center;
+}
+.modal form .radiogt > label{
+    padding-right: 20px;
+}
+.modal form > select{
+    height: 30px;
+    color: #333;
+}
+.modal form > .button-add{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.modal form > .button-add > .add{
+    width: 100px;
+    height: 30px;
+    background: #7aba1e;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.3s all;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal form div button:hover{
+    background-color:#52850b;
+    color: white;
+}
+.modal .modal-add .btn-out{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+}
+.modal .modal-add .btn-out i{
+    font-size: 30px;
+    cursor: pointer;
+}
+.modal .modal-add .btn-out i:hover{
+    color: #7aba1e;
+}

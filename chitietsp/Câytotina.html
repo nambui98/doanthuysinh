@@ -1,0 +1,299 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../stylemenu.css">
+    <link rel="stylesheet" href="../styleSP.css">
+    <link rel="stylesheet" href="../dangnhap.css">
+    <link rel="stylesheet" href="../stylechitietsp.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+        <div>
+            <a href="../trangchu.html"><img id="img-header" src="..\logo\logo-thuysinh-green.png" alt=""></a>
+        </div>
+    
+        <div>
+            <a href="../gioithieu.html">Giới thiệu</a>
+            <a href="../caythuysinh.html">cây thủy sinh</a>
+            <a href="../hothuytinh.html">hồ thủy sinh</a>
+            <a href="../sinhvatcanh.html">sinh vật cảnh</a>
+            <a href="../phukien.html">Phụ kiện</a>
+            <a href="../lienhe.html">Liên hệ</a>
+            <i class="fas fa-search ">
+                <div class="search-item">
+                    <input type="text" id="myInput" onkeyup="search()" name="" placeholder="Tìm kiếm..." id="">
+                    <i class="fas fa-search"></i>
+                    <div class="search-items">
+                        <span class="notify">Không có sản phẩm nào.</span>
+                    </div>
+                    <div class="border-arrow">
+    
+                    </div>
+                </div>
+            </i>
+            <i class="fas fa-user"></i>
+            <i class="fas fa-shopping-cart">
+                <div class="count-cart">0</div>
+            </i>
+            
+            <div class="content-section">
+                <div class="cart-items">
+                </div>
+                <div class="cart-total">
+                    <strong class="cart-total-title">Tổng cộng:</strong>
+                    <span class="cart-total-price">0 ₫</span>
+                </div>
+                <div>
+                    <button class="btn-viewcart" type="button">XEM GIỎ HÀNG</button>
+                    <button class="btn-purchase" type="button">MUA</button>
+                    <div class="border-arrow"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="containerSP">
+        <div class="left">
+            <h5>Sản phẩm</h5>
+            <hr>
+            
+            <div class="xemthemsp">
+                <div class="item-xemthem">
+                    <div>
+                        <img class="img-right" src="..\img\phukien\014-2-300x300.jpg" alt="">
+                        <div>
+                            <span>Máy bơm bể cá Atman AT-106</span> <br>
+                            <b>2,155,000 ₫</b>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-xemthem">
+                    <div>
+                        <img class="img-right" src="..\img\hothuysinh\2-300x300.jpg" alt="">
+                        <div>
+                            <span>Hồ tủ cá biển kính uốn 1m4 x60 x1m</span> <br>
+                            <b>9,580,000 ₫</b>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-xemthem">
+                    <div>
+                        <img class="img-right" src="..\img\sinhvatcanh\3-300x300.jpg" alt="">
+                        <div>
+                            <span>Cá ông tiên</span> <br>
+                            <b>24,500 ₫</b>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-xemthem">
+                    <div>
+                        <img class="img-right" src="..\img\sinhvatcanh\9-4-300x300.jpg" alt="">
+                        <div>
+                            <span>Tép rili đỏ – Red rili shrimp</span> <br>
+                            <b>25,000 ₫</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="sp">
+                <div class="sp-img">
+                    <img class="shop-item-image" src="..\img\caythuysinh\cay-totina.jpg" alt="">
+                </div>
+                <div class="thongtin-sp">
+                    <h3 class="shop-item-title">Cây totina</h3>
+                    <hr>
+                    <span class="gia">20,000 ₫</span>
+                    <p class="thongtin-chitiet">Cây Totina là loài cây thủy sinh có sức sống rất dễ chịu nhưng với hình dáng và vẻ đẹp tuyệt vời sang trọng vô cùng hoàn hảo, Cây Totina là một cây trung cảnh phổ biến trong hồ thủy sinh hiện nay.</p>
+                    <div class="button">Thêm vào giỏ</div>
+                </div>
+            </div>
+            <div>
+                <div class="tab">
+                    <button class="tablinks" onclick="opentab(event, 'Mota')" id="defaultOpen">Mô tả</button>
+                    <button class="tablinks" onclick="opentab(event, 'Danhgia')">Đánh giá</button>
+                    <button class="tablinks" onclick="opentab(event, 'Chinhsach')">Chính sách bảo hành</button>
+                </div>
+                <div id="Mota" class="tabcontent">
+                    <h3>Mô tả</h3>
+                    <p>Cây Totina là loài cây thủy sinh có sức sống rất dễ  chịu  nhưng với hình dáng và vẻ đẹp tuyệt vời sang trọng vô cùng hoàn hảo, Cây Totina là một cây trung cảnh phổ biến trong hồ thủy sinh hiện nay.</p>
+                    <p><strong>Tên khoa học:</strong> Rotala macrandra</p>
+                    <p><strong>Họ:</strong> Lythraceae</p>
+                    <p><strong>Xuất xứ:</strong>Hypnaceae</p> 
+                    <p><strong>Kích thước:</strong>Cao 1  – 3cm, bụi rộng 4 – 6cm (trong bể thủy sinh sẽ nhỏ hơn theo kích thước của bể)</p> 
+                    <p><strong>Ánh sáng:</strong>Từ thấp đến rất cao</p> 
+                    <p><strong>Nhiệt độ:</strong>15 – 28 °C</p> 
+                    <p><strong>Dinh dưỡng:</strong>Trung Bình</p> 
+                    <p><strong>PH:</strong>5.5 – 8.0</p> 
+                    <p><strong> Tốc độ sinh trưởng:</strong>Chậm (Nhanh hơn nếu có CO2)</p> 
+                    <p><strong>Chăm sóc:</strong>Khó, cần có CO2, có thể trồng tiền cảnh hoặc trung cảnh</p> 
+                    <p>Vesicularia dubyana ‘Christmas’ (Rêu X-mas) – là một loại rêu lần đầu tiên xuất hiện trong một bể Nhật Bản với tên “Amazonia Willow Moss”. Sau chúng được gọi tên thông dụng hơn là rêu Christmas do các nhánh rất giống cây thông Noen. Chúng đòi hỏi điều kiện tốt hơn Rêu Cái Đẻ và mọc chậm hơn. Nên buộc hoặc cấy Vesicularia dubyana ‘Christmas’ (Rêu X-mas) vào đá và lũa, nên để chúng sà xuống nước để tạo nên những hình thế và dáng đẹp.</p>
+                </div>
+
+                <div id="Danhgia" class="tabcontent">
+                    
+                    <div class="danhgiasp">
+                        <h3>Đánh giá</h3>
+                        <p>Chưa có đánh giá nào</p>
+                        <div>
+                            <form action="">
+                                <h5>Hãy là người đầu tiên nhận xét “RÊU X-MAS ( RÊU CHRISTMAS) xmas moss , christmas moss” </h5>
+                                <label for="">Nhận xét của bạn *</label>
+                                <textarea name="" id="" cols="30" rows="10"></textarea>
+                                <div>
+                                    <div>
+                                        <label for="">Tên *</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+                                    <div>
+                                        <label for="">Email *</label>
+                                        <input type="text" name="" id="">
+                                    </div>
+                                </div>
+                                <div>Gửi đi</div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="Chinhsach" class="tabcontent">
+                    <h3>Chính sách bảo hành</h3>
+                    <p>Chính sách bảo hành của riêng mỗi hãng:</p>
+                    <p>CASIO: Bảo hành chính hãng máy 1 năm, pin 1,5 năm</p>
+                    <p>CITIZEN: Bảo hành chính hãng toàn cầu máy 1 năm, pin 1 năm</p>
+                    <p>SEIKO: Bảo hành chính hãng toàn cầu máy 1 năm, pin 1 năm</p>
+                    <p>ORIENT: Bảo hành chính hãng toàn cầu máy 1 năm, pin 1 năm</p>
+                    <p>OP: Bảo hành chính hãng máy 2 năm, pin 1 năm</p>
+                    <p>RHYTHM: Bảo hành chính hãng máy 1 năm, pin 1 năm</p>
+                    <p>OGIVAL: Bảo hành chính hãng máy 2 năm, pin 1 năm</p>
+                    <p>ELLE: Bảo hành chính hãng máy 2 năm, pin 2 năm</p>
+                    <p>TISSOT: Bảo hành chính hãng máy 2 năm, pin 1 năm</p>
+                    </div>
+                </div>
+            </div>
+            
+    </div>
+    <footer>
+        <div class="footer">
+            <img src="..\logo\logo-thuysinh-white.png" alt="">
+            <span><span>A:</span> 319 c16 Lý Thường Kiệt, Phường 15, Quận 11, Tp.HCM</span>
+            <span><span>T:</span> 0126 922 0162</span>
+            <span><span>E:</span> demonhunter@gmail.com
+            mon@mona.media</span>
+            <span><span>S:</span> demonhunterp</span>
+        </div>
+        <div class="footer">
+            <h2>ĐIỀU HƯỚNG</h2>
+            <div>
+                <div>
+                    <i class="fab fa-pagelines"></i>
+                    <span>Trang chủ</span>
+                </div>
+                <div>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <i class="fab fa-pagelines"></i>
+                    <span>Tin Tức</span>
+                </div>
+                <div>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <i class="fab fa-pagelines"></i>
+                    <span>Về chúng tôi</span>
+                </div>
+                <div>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <i class="fab fa-pagelines"></i>
+                    <span>Liên hệ</span>
+                </div>
+                <div>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <h2>BÀI VIẾT MỚI NHẤT</h2>
+            <div>
+                <div>
+                    <img src="..\img\3-5-300x216.jpg" alt="">
+                </div>
+                <div>
+                    <img src="..\img\banner_2-1-300x150.jpg" alt="">
+                </div>
+                <div>
+                    <img src="..\img\BirdMirror_Rwards-300x94.jpg" alt="">
+                </div>
+                <div>
+                    <img src="..\img\bird-watching-in-corbett-300x150.jpg" alt="">
+                </div>
+                
+            </div>
+        </div>
+        <div class="footer">
+            <h2>BẢN ĐỒ</h2>
+            <div id="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.18024416462!2d106.68042451411596!3d10.7205770631552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752fab1ff8e21f%3A0x43aaccdce0467b!2sTh%E1%BB%A7y+Sinh+Asin!5e0!3m2!1svi!2s!4v1555749636993!5m2!1svi!2s"
+                    width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </footer>
+    <div class="modal-signin">
+        <form action="" id="form-dangnhap">
+            <h5>ĐĂNG NHẬP</h5>
+            <div>
+                <p>Tên tài khoản hoặc địa chỉ email *</p>
+                <input type="text" name="" id="">
+            </div>
+            <div>
+                <p>Mật khẩu *</p>
+                <input type="text" name="" id="">
+            </div>
+            <div>
+                <span class="input">ĐĂNG NHẬP</span><input type="checkbox" name="" id="">Ghi nhớ mật khẩu<br>
+                <div>
+                    <span>Quên mật khẩu?</span>
+                </div>
+                
+            </div>
+            <div class="bar">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+            </div>
+        </form>
+    </div>
+    <script src="../menujs.js"></script>
+    <script src="../store.js"></script>
+    <script src="../search.js"></script>
+    <script src="../dangnhap.js"></script>
+    <script src="../chitietsp.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+</html>

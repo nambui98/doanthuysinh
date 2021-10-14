@@ -1,0 +1,67 @@
+nav{
+    margin: 120px 100px;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.row1 > div{
+    width: 48%;
+    box-sizing: border-box;
+    
+}
+.row1 > div> input,.row2>div>select, .row3>div>input{
+    width: 100%;
+    border: 1px solid #ddd;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+}
+.row1 > div> input:focus,.row2>div>input:focus,.row3>div>input:focus,.row4>div>textarea:focus{
+    box-shadow: 0px 0px 5px 0px rgba(153,153,153,1);
+}
+.row2{
+    margin-top: 20px;
+}
+.row3>div>input{
+    width: 100%;
+}
+.row3{
+    margin-top: 20px;
+}
+.row4{
+    margin-top: 20px;
+}
+.row4>div>textarea{
+    height: 100px;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding-left: 10px;
+    outline: none;
+}
+nav .giohang-right{
+    border: 3px solid #7aba1e;
+    padding-top: 20px;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+}
+nav .giohang-left{
+    padding-top: 20px;
+}
+.items>div{
+    display: flex;
+    justify-content: space-between;
+}
+.items > div>p:nth-child(1){
+    width: 300px;   
+
+}
+p.c {
+    word-break: break-all;
+}
+nav >.giohang-right span{
+    font-weight: 700;
+    font-size: 17px;
+}

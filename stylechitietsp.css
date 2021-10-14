@@ -1,0 +1,143 @@
+.containerSP{
+    margin-top: 120px;
+}
+.right{
+    padding: 20px 0 20px 40px;
+}
+.right .sp{
+    width: 100%;
+    display: flex;
+}
+.right .sp .sp-img img{
+    width: 400px;
+    height: 400px;
+}
+.right .sp .thongtin-sp h3{
+    font-weight: bold;
+}
+.right .sp .thongtin-sp .gia{
+    font-weight: bold;
+    font-size: 20px;
+}
+.right .sp .thongtin-sp .thongtin-chitiet{
+    margin-top: 10px;
+}
+.right .sp .thongtin-sp{
+    padding-left: 30px;
+}
+.right .sp .thongtin-sp .button{
+    height: 40px;
+    width: 200px;
+    background-color: #f56b64;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin-top: 30px; 
+    cursor: pointer;
+}
+.right div:nth-child(2){
+    width: 100%;
+}
+.right div:nth-child(2) h3{
+    font-weight: 700;
+    font-size: 27px;
+}
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    margin-top: 30px;
+    width: 405px;
+    border-bottom: none;
+}
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    display: block;
+}
+.tab button:hover {
+    background-color: #ddd;
+}
+.tab button.active {
+    background-color: #ccc;
+}
+.tabcontent {
+    padding: 30px 12px;
+    border: 1px solid #ccc;
+}
+.right div:nth-child(2) .tabcontent{
+    padding: 20px 30px;
+
+}
+.danhgiasp >h3{
+    font-weight: 700;
+    font-size: 27px;
+}
+.tabcontent form{
+    border: 2px solid #76b101;
+    padding: 30px;
+}
+.tabcontent form h5{
+    font-weight: 700;
+}
+.tabcontent form label{
+    font-weight: 700;
+}
+.tabcontent form textarea{
+    width: 100%;
+    height: 115px;
+    border: 1px solid #ddd;
+    padding-left: 10px;
+    outline: none;
+}
+
+.tabcontent form > div{
+    display: flex;
+    padding: 30px 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.tabcontent form > div div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    box-sizing: border-box;
+}
+.tabcontent form > div div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    box-sizing: border-box;
+}
+.tabcontent form > div >div input{
+    border: 1px solid #ddd;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+}
+.tabcontent form > div:last-child{
+    background-color: #76b101;
+    width: 100px;
+    height: 40px;
+    padding: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tabcontent form > div >div input:focus,.tabcontent form textarea:focus{
+    box-shadow: 0px 0px 5px 0px rgba(85,85,85,0.3);
+}
+.tabcontent form textarea:hover{
+    box-shadow:none;
+}
+

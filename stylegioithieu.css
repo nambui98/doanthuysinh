@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+#header div a:nth-child(1){
+    color: #76b101;
+}
+.main{
+    margin-top: 120px;
+}
+.main .title{
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 32px;
+    padding-bottom: 10px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.main hr{
+    width: 60px;
+    height: 5px;
+    background-color: #76b101;
+    border-radius: 4px;
+    margin-top: 0;
+}
+.main .banner{
+    background-image: url("img/banner/158868_tank_banner_011-1.jpg");
+    width: 90%;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    margin: 0 auto;
+}
+.main .thongtin{
+    width: 90%;
+    display: flex;
+    margin: 20 auto;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.main .thongtin > .thongtin-detail{
+    width: calc(100%/3);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .thongtin-detail .icon{
+    font-size: 35px;
+    color: #76b101;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.main .thongtin-detail:nth-child(1) .icon{
+    border: 1px solid #76b101;
+}
+.main .thongtin-detail:nth-child(1) .icon:hover{
+    background-color: #76b101;
+}
+.main .thongtin-detail:nth-child(1) .icon:hover i{
+    color: white;
+}
+.main .thongtin-detail:nth-child(2) .icon{
+    border: 1px solid rgb(118, 214, 251);
+}
+.main .thongtin-detail:nth-child(2) .icon:hover{
+    background-color:rgb(118, 214, 251);
+}
+.main .thongtin-detail:nth-child(2) .icon:hover i{
+    color: white;
+}
+.main .thongtin-detail:nth-child(3) .icon{
+    border: 1px solid rgb(255, 210, 122);
+}
+.main .thongtin-detail:nth-child(3) .icon:hover{
+    background-color:rgb(255, 210, 122);
+}
+.main .thongtin-detail:nth-child(3) .icon:hover i{
+    color: white;
+}
+.main .thongtin-detail .fa-phone{
+    color: #76b101;
+}
+.main .thongtin-detail .fa-map-marker-alt{
+    color: rgb(118, 214, 251);
+}
+.main .thongtin-detail .fa-wallet{
+    color: rgb(255, 210, 122);
+}

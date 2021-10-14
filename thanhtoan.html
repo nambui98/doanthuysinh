@@ -1,0 +1,282 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylemenu.css">
+    <link rel="stylesheet" href="dangnhap.css">
+    <link rel="stylesheet" href="styleSP.css">
+	<link rel="stylesheet" href="stylegiohang.css">
+	<link rel="stylesheet" href="thanhtoan.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+        <div>
+            <a href="trangchu.html"><img id="img-header" src="logo\logo-thuysinh-green.png" alt=""></a>
+        </div>
+    
+        <div>
+            <a href="gioithieu.html">Giới thiệu</a>
+            <a href="caythuysinh.html">cây thủy sinh</a>
+            <a href="hothuytinh.html">hồ thủy sinh</a>
+            <a href="sinhvatcanh.html">sinh vật cảnh</a>
+            <a href="phukien.html"">Phụ kiện</a>
+            <a href="lienhe.html">Liên hệ</a>
+            <i class="fas fa-search ">
+                
+            </i>
+            <div class="search-item">
+                <input type="text" id="myInput" onkeyup="search()" name="" placeholder="Tìm kiếm..." id="">
+                <i class="fas fa-search"></i>
+                <div class="search-items">
+                    <span class="notify">Không có sản phẩm nào.</span>
+                </div>
+                <div class="border-arrow">
+
+                </div>
+            </div>
+            <i class="fas fa-user"></i>
+            <i class="fas fa-shopping-cart">
+                <div class="count-cart">0</div>
+            </i>
+            
+            <div class="content-section">
+                <div class="cart-items">
+                </div>
+                <div class="cart-total">
+                    <strong class="cart-total-title">Tổng cộng:</strong>
+                    <span class="cart-total-price">0 ₫</span>
+                </div>
+                <div>
+                    <button class="btn-viewcart" type="button">XEM GIỎ HÀNG</button>
+                    <button class="btn-purchase" type="button">MUA</button>
+                    <div class="border-arrow">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="giohang-left">
+			<h4><span>THÔNG TIN THANH TOÁN</span></h4>
+			<div class="row1">
+				<div>
+					<span>Họ*</span> <br>
+					<input type="text" name="" placeholder="Họ" id="">
+				</div>
+				<div>
+					<span>Tên*</span> <br>
+					<input type="text" name="" placeholder="Tên" id="">
+				</div>
+			</div>
+			<div class="row2">
+				<div>
+					<span>Quốc gia* </span><br>
+					<select name="" placeholder="Quốc gia" id="">
+						<option value="VN">
+							Viet Nam
+						</option>
+						<option value="TL">
+							Thai Lan
+						</option>
+					</select>
+				</div>
+				
+			</div>
+			<div class="row1">
+				<div>
+					<span>Địa chỉ* </span><br>
+					<input type="text" name="" placeholder="Địa chỉ" id="">
+				</div>
+				<div>
+					
+				</div>
+			</div>
+			<div class="row3">
+				<div>
+					<span>Số điện thoại*</span> <br>
+					<input type="text" name="" placeholder="Số điện thoại" id="">
+				</div>
+			</div>
+			<div class="row3">
+				<div>
+					<span>Địa chỉ email*</span> <br>
+					<input type="text" name="" placeholder="Email" id="">
+				</div>
+			</div>
+			<div class="row4">
+				<div>
+					<span>Ghi chú*</span> <br>
+					<textarea type="text" name="" placeholder="Ghi chú" id=""></textarea>
+				</div>
+			</div>
+        </div>
+        <div class="giohang-right">
+            <h5>ĐƠN HÀNG CỦA BẠN</h5>
+            <hr>
+            <div>
+                <span>SẢN PHẨM</span>
+                <span class="totalItem">TỔNG CỘNG</span>
+            </div>
+			<hr>
+			<div class="items">
+				<div>
+						<p class="c">dấdfasdfasdfasdfádfaaaaaaaaaaaasdfasdfasdfasdfadfa</p>
+						<p class="totalItem">330000</p>
+				</div>
+				
+
+			</div>
+			<hr>
+            <div class="giaohang">
+                <span>Giao hàng 1</span>
+                <div>
+                    <p>Giao hàng miễn phí</p>
+                    
+                </div>
+            </div>
+            <hr>
+            <div class="tong">
+                <span>Tổng cộng</span>
+                <p class="gia">505,000 ₫</p>
+            </div>
+            <hr>
+            <div class="button">
+                ĐẶT HÀNG
+            </div>
+            
+        </div>
+    </nav>
+    <footer>
+        <div class="footer">
+            <img src="logo\logo-thuysinh-white.png" alt="">
+            <span><span>A:</span> 319 c16 Lý Thường Kiệt, Phường 15, Quận 11, Tp.HCM</span>
+            <span><span>T:</span> 0126 922 0162</span>
+            <span><span>E:</span> demonhunter@gmail.com
+            mon@mona.media</span>
+            <span><span>S:</span> demonhunterp</span>
+        </div>
+        <div class="footer">
+            <h2>ĐIỀU HƯỚNG</h2>
+            <div>
+                <div>
+                    <i class="fab fa-pagelines"></i>
+                    <span>Trang chủ</span>
+                </div>
+                <div>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <i class="fab fa-pagelines"></i>
+                    <span>Tin Tức</span>
+                </div>
+                <div>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <i class="fab fa-pagelines"></i>
+                    <span>Về chúng tôi</span>
+                </div>
+                <div>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <i class="fab fa-pagelines"></i>
+                    <span>Liên hệ</span>
+                </div>
+                <div>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <h2>BÀI VIẾT MỚI NHẤT</h2>
+            <div>
+                <div>
+                    <img src="img\3-5-300x216.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img\banner_2-1-300x150.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img\BirdMirror_Rwards-300x94.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img\bird-watching-in-corbett-300x150.jpg" alt="">
+                </div>
+                
+            </div>
+        </div>
+        <div class="footer">
+            <h2>BẢN ĐỒ</h2>
+            <div id="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.18024416462!2d106.68042451411596!3d10.7205770631552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752fab1ff8e21f%3A0x43aaccdce0467b!2sTh%E1%BB%A7y+Sinh+Asin!5e0!3m2!1svi!2s!4v1555749636993!5m2!1svi!2s"
+                    width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </footer>
+    <div class="modal-signin">
+        <form action="" id="form-dangnhap">
+            <h5>ĐĂNG NHẬP</h5>
+            <div>
+                <p>Tên tài khoản hoặc địa chỉ email *</p>
+                <input type="text" name="" id="">
+            </div>
+            <div>
+                <p>Mật khẩu *</p>
+                <input type="text" name="" id="">
+            </div>
+            <div>
+                <span class="input">ĐĂNG NHẬP</span><input type="checkbox" name="" id="">Ghi nhớ mật khẩu<br>
+                <div>
+                    <span>Quên mật khẩu?</span>
+                </div>
+                
+            </div>
+            <div class="bar">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+            </div>
+        </form>
+    </div>
+    <script>
+        var btnRemove=document.getElementsByClassName('btn-danger');
+        for(var i=0;i<btnRemove.length;i++){
+            btnRemove[i].addEventListener('click',function(event){
+                var item=event.target.parentElement.parentElement;
+                item.remove();
+            })
+        }
+    </script>
+    <script src="menujs.js"></script>
+    <script src="store.js"></script>
+    <script src="search.js"></script>
+    <script src="selectprice.js"></script>
+    <script src="sort.js"></script>
+    <script src="dangnhap.js"></script>
+    <script src="giohang.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+</html>

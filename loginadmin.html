@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="dangnhap.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="loginadmin.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="modal-signin">
+        <form action="" id="form">
+            <h5>ĐĂNG NHẬP</h5>
+            <div>
+                <p>Tên tài khoản hoặc địa chỉ email *</p>
+                <input type="text" name="" id="">
+            </div>
+            <div>
+                <p>Mật khẩu *</p>
+                <input type="password" name="" id="">
+            </div>
+            <div>
+                <a class="button">ĐĂNG NHẬP</a><input type="checkbox" name="" id="">Ghi nhớ mật khẩu<br>
+                <div>
+                    <span class="quenmk">Quên mật khẩu?</span>
+                </div>
+                
+            </div>
+            <!-- <div class="bar">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+            </div> -->
+        </form>
+    </div>
+    <script>
+        var form=document.getElementById('form');
+        document.getElementsByClassName('button')[0].addEventListener('click',function(){
+            var tk=form.elements[0]
+            var mk=form.elements[1]
+            if(tk.value==''){
+                tk.style.border = 'none';
+                tk.style.boxShadow = '0px 0px 5px 0px #ff0000';
+                return;
+            }
+            else{
+                tk.style.border = '1px solid #ddd';
+                tk.style.boxShadow = 'none';
+            }
+            if(mk.value==''){
+                mk.style.border = 'none';
+                mk.style.boxShadow = '0px 0px 5px 0px #ff0000';
+                return;
+            }
+            else{
+                mk.style.border = '1px solid #ddd';
+                mk.style.boxShadow = 'none';
+            console.log('aaa')
+                if(tk.value=='admin' && mk.value=='123456'){
+                this.setAttribute('href','admin.html')
+                }
+                else{
+                    alert('sai tài khoản hoặc mật khẩu')
+                }
+            }
+            
+            // else{
+            //     alert('bạn không có quyền truy cập')
+            // }
+        })
+    </script>
+</body>
+</html>
